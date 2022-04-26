@@ -108,7 +108,9 @@ app.get('/', (req, res) => {
     res.send('Running Genius Server');
 });
 
-
+app.get('/hero', (req, res) => {
+    res.send('hero meets hero ku');
+});
 
 // you need to use listen to show the server
 app.listen(port, () => {
